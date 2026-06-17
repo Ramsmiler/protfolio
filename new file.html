@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunti Ram | Python Developer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0077b6, #00b4d8);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: white;
+            color: #0077b6;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #023e8a;
+            color: white;
+        }
+
+        nav {
+            background: #023e8a;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #90e0ef;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #0077b6;
+            margin-bottom: 20px;
+        }
+
+        #skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            list-style: none;
+        }
+
+        #skills li {
+            background: #e3f2fd;
+            padding: 12px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .project {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-top: 15px;
+            border-left: 5px solid #0077b6;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media(max-width:768px) {
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section {
+                margin: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Add your photo here -->
+        <img src="profile.jpg" alt="Kunti Ram" class="profile-pic">
+
+        <h1>Kunti Ram</h1>
+        <p>Python Developer | Cyber Security Graduate</p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Motivated and detail-oriented B.Tech graduate with strong knowledge
+            of Python, SQL, OOP, MySQL, HTML, CSS and JavaScript.
+            Seeking an entry-level Python Developer role.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Linux</li>
+            <li>OOP</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Student Management System</h3>
+            <p>Python + MySQL application for managing student records using CRUD operations.</p>
+        </div>
+
+        <div class="project">
+            <h3>Employee Management System</h3>
+            <p>Python + MySQL application for managing employee information.</p>
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p><strong>Name:</strong> Kunti Ram</p>
+        <p><strong>Phone:</strong> 8341826034</p>
+        <p><strong>Email:</strong> kuntiram7013@gmail.com</p>
+
+        <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/ram-kunti-46251931b" target="_blank">
+                View Profile
+            </a>
+        </p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Kunti Ram | Python Developer Portfolio</p>
+    </footer>
+
+</body>
+
+</html>
